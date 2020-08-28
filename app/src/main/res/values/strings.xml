@@ -6,5 +6,10 @@
     <string name="contact">contact</string>
     <string name="hello_i_am_about_me_fragment">Hello i\'am About me fragment</string>
     <string name="hello_i_am_contact_fragment">hello i\'am contact fragment</string>
+    <string name="ABOUTME">ABOUTME</string>
+    <string name="name">My name WorWae</string>
+    <string name="welcome">Let\'s get to know each other</string>
     <string name="button">Button</string>
+    <string name="email">email</string>
+    <string name="Add">add</string>
 </resources>

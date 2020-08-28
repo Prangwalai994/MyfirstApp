@@ -36,6 +36,7 @@ class ContactViewModel(
                 append(", ")
                 append(it.phone)
                 append("<br>")
+
             }
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
@@ -53,6 +54,7 @@ class ContactViewModel(
             val newContact = Contact()
             newContact.name = binding.editTextTextPersonName.text.toString()
             newContact.phone = binding.editTextTextPersonPhone.text.toString()
+
             insert(newContact)
         }
     }

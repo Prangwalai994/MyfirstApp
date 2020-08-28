@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -16,6 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/happy_school_season_theme_background"
             android:orientation="vertical"
             tools:ignore="UselessParent">
 
@@ -26,6 +28,13 @@
                 android:ems="10"
                 android:inputType="text" />
 
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:src="@drawable/person" />
+
             <EditText
                 android:id="@+id/editTextTextPersonPhone"
                 android:layout_width="match_parent"
@@ -34,17 +43,26 @@
                 android:inputType="text"
                 tools:ignore="TextFields" />
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:src="@drawable/phone" />
+
             <Button
                 android:id="@+id/buttonInsert"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#D0FFFF8D"
                 android:onClick="@{()->contactViewModel.onContactAdd()}"
-                android:text="@string/button" />
+                android:text="@string/Add"
+                android:textColor="#FF8A80"
+                android:textColorHint="#F6C0C0" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="505dp"
                 android:text="@{contactViewModel.contactString}" />
 
         </LinearLayout>
