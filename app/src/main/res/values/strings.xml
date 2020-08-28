@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutme">aboutme</string>
+    <string name="contact">contact</string>
+    <string name="hello_i_am_about_me_fragment">Hello i\'am About me fragment</string>
+    <string name="hello_i_am_contact_fragment">hello i\'am contact fragment</string>
+    <string name="button">Button</string>
+</resources>
